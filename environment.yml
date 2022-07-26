@@ -1,0 +1,9 @@
+name: yolo
+channels:
+  - defaults
+  - pytorch
+dependencies:
+  - torchvision
+  - cudatoolkit=11.3
+  - torchaudio
+  - pytorch=1.11
